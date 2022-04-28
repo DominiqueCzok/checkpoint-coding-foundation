@@ -12,8 +12,7 @@ function filterApiData(apiData, mandatoryKeys) {
         containsAllKeys = false;
         break;
       }
-    }
-    
+    }    
     if (containsAllKeys) {
       result.push(obj);
     }
